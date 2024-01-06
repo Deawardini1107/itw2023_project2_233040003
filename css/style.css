@@ -1,0 +1,70 @@
+body {
+  background: #ac5b82; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d69595, #f857a6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e7aa94, #e7aa94); /* W3C, IE 10+/ Edge, Firefox 16+, 
+  Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Noto Serif", serif;
+}
+
+.nav {
+  background-color: #d69595;
+  font-family: "Noto Serif", serif;
+}
+
+.container-home {
+  background-image: url("/img/home.jpeg");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 100px 40px rgb(9, 0, 0);
+}
+
+/* about */
+#about img {
+  width: 500px;
+  height: 350px;
+}
+
+#about p {
+  width: 50%;
+  font-size: 20px;
+}
+
+#contact form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.maps {
+  width: 650px;
+  height: 400px;
+}
+
+#contact form {
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  /* about */
+  #about p {
+    width: 100%;
+  }
+
+  #about img {
+    width: 100%;
+  }
+
+  /* contact */
+  #contact form {
+    width: 100%;
+  }
+
+  .container-home {
+    height: 350px;
+  }
+
+  .maps {
+    width: 100%;
+    height: 400px;
+  }
+}
