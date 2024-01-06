@@ -12,7 +12,7 @@ body {
 }
 
 .container-home {
-  background-image: url(/img/home.jpeg);
+  background-image: url(../img/home.jpeg);
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
